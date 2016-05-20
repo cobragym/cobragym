@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="my.com.cobragym.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
-    <name>Cobra Gym 24 Hour Fitness</name>
+    <name>Cobra Gym</name>
     <description>We are 1st and only 24 hour gym in Malaysia</description>
     <author email="cobra" href="cobragym@hotmail.my">AGOTH Webmaster</author>
 
     <preference name="phonegap-version" value="3.3.0" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
@@ -47,6 +48,6 @@
     <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
-    <content src="http://www.cobragym.com.my" />
-    <access origin="http://cobragym.com.my" subdomains="true" />
+    <content src="http://cobragym.com.my" />
+    <access origin="*" subdomains="true" />
 </widget>
