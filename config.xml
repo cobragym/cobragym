@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="my.com.cobragym.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
-    <name>Cobra Gym 24 Hour Fitness</name>
+    <name>Cobra Gym</name>
     <description>We are 1st and only 24 hour gym in Malaysia</description>
     <author email="cobra" href="cobragym@hotmail.my">AGOTH Webmaster</author>
 
